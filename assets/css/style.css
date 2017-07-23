@@ -42,9 +42,6 @@ li {
 	padding: 10px;
 	top:45px;
 	left: 750px;
-
-
-
 }
 
 section {
@@ -61,24 +58,31 @@ p {
 	line-height: 25px;
 }
 
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 10px;
+	margin-left: 10px;
+	color: #777777;
+	line-height: 25px;
+}
+
 footer
 {
     font-size: 16px;
     color: violet;
     text-align:center;
     padding: 25px;
-    height:50px;
+    height:60px;
     background-color:#666666;
     clear: both;
     border-top: 7px solid #4aaaa5;
-    margin-top: 250px;
+    margin-top: 10px;
+
 
 }
 
-#content {
-	
-}
 
+/*header*/
 #header {
 	width:100%;
 	height: 95px;
@@ -91,18 +95,33 @@ footer
 	margin: 0;
 }
 
+/*about me field*/
 #main {
 	width: 600px;
 	margin-top: 50px;
 	margin-left: 50px;
+	margin-bottom: 210px;
 	padding: 30px;
 	border: 2px solid #dddddd;
 	float:left;
 	background-color: #ffffff;
 }
 
+/*contact field*/
+#contact {
+	width: 600px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+	padding: 30px;
+	border: 2px solid #dddddd;
+	float:left;
+	background-color: #ffffff;
+}
+
+/*sidebar*/
 #sidebar {
-	width: 200px;
+	width: 220px;
 	margin-left: 50px;
 	margin-top: 50px;
 	padding: 30px;
@@ -111,11 +130,50 @@ footer
 	background-color: #ffffff;
 }
 
+/*my picture*/
 #profile-pic{
 	float: left;
 	margin: 10px;
 }
 
+/*footer font*/
 #footfont {
 	color:white;
+}
+
+/*message box size*/
+.messageBox {
+	text-align: left;
+    padding: 0.4em 0.4em 0.4em 0;
+    padding-top: 0;
+    padding-left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+
+/*keeping all the links a proper grey font*/
+a:link {
+    text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+}
+
+a:visited {
+    text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
 }
