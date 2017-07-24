@@ -1,7 +1,10 @@
+
+/*background image*/
 body {
 	background: url(../images/rough_diagonal.png);
 }
 
+/*stylin*/
 h1 {
 	background-color: #4aaaa5;
 	color: white;
@@ -91,11 +94,12 @@ footer
 	
 }
 
+/*dunno why i put this*/
 #content {
 	margin: 0;
 }
 
-/*about me field*/
+/*about me box*/
 #main {
 	width: 600px;
 	margin-top: 50px;
@@ -107,7 +111,7 @@ footer
 	background-color: #ffffff;
 }
 
-/*contact field*/
+/*contact box*/
 #contact {
 	width: 600px;
 	margin-top: 50px;
@@ -149,6 +153,25 @@ footer
     padding-left: 0;
     width: 100%;
     height: 200px;
+}
+
+
+/*setting the image captions*/
+.portfolioImages {
+	float: left;
+	position: relative;
+	padding: 20px;
+}
+
+span {
+	position: absolute;
+	padding: 15px;
+	width: 220px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	bottom: 20px;
 }
 
 
